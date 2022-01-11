@@ -4,6 +4,21 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+/* My Customisation */
+
+.logo img{
+	width: 100px;
+	height: 60px;
+}
+@media (min-width:300px) and (max-width: 768px) {
+	.logo img{
+		width: 65px;
+		height: auto;
+	}
+}
+
+/* My Customisation */
+
 * {
 	margin:0 auto;
 }
@@ -26,7 +41,7 @@ body {
 }
 /*for-section-text-start-here*/
 ::selection {
- background: #e73131; /* WebKit/Blink Browsers */
+ background: #e73131; /* WebKit/Blink ;Browsers */
  color:#fff;
 }
 ::-webkit-selection {
@@ -433,57 +448,7 @@ ul.nav li.active a:before {
 .bg-sec p {
 	color:#FFFFFF;
 }
-/*Service-stylesheets-include-here*/
-#service {
-	text-align:center;
-	padding:2% 0%;
-}
-#features-sec {
-	padding: 100px 0;
-}
-#features-sec .media.service-box:first-child {
-	margin-top: 80px;
-}
-#services {
-	padding: 100px 0 75px;
-}
-.media.service-box {
-	margin: 25px 0;
-}
-.media.service-box .pull-left {
-	margin-right: 20px;
-}
-.media.service-box .pull-left > i {
-	font-size: 24px;
-	height: 64px;
-	line-height: 64px;
-	text-align: center;
-	width: 64px;
-	border-radius: 100%;
-	color: #e73131;
-	border:1px solid #d7d7d7;
-	transition: background-color 400ms, background-color 400ms;
-	position: relative;
-}
-.media.service-box:hover .pull-left > i {
-	background:#e73131;
-	color:#fff;
-	transform:rotateY(360deg);
-	-moz-transform:rotate(360deg);
-	-o-transform:rotate(360deg);
-	-webkittransform:rotate(360deg);
-	transition:all 0.5s;
-	-moz-transition: all 0.8s;
-	-o-transition: all 0.8s;
-	-webkit-transition: all 0.8s;
-}
-.media-body h5 {
-	font-weight:bolder;
-	text-align:left;
-}
-.media-body p {
-	text-align:justify;
-}
+
 /*Experience-stylesheets-include-here*/
 .experience {
 	margin-top:30px;

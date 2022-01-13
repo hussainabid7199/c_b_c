@@ -91,13 +91,15 @@ if(isset($_POST['email'])) {
 // create email headers
 $to = "hussainabid7199@gmail.com"
  
-$headers = 'From:'.$email_from."\r\n".
+$headers = 'From:'.$email_from"\r\n".
 
-'Reply-To:'.$email_from."\r\n" .
+'Reply-To:'.$email"\r\n" .
  
 'X-Mailer: PHP/' . phpversion();
  
-@mail($email_from, $email_subject, $email_message, $headers);  
+@mail($to, $email_subject, $email_message, $headers);  
+
+header ("Location: index.html");
  
 ?>
  

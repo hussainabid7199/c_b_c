@@ -1022,7 +1022,7 @@ a.btn-blg:hover {
 #client {
 	text-align:center;
 	position:relative;
-	padding:70px 0px 10px 0px;
+	/* padding:70px 0px 10px 0px; */
 }
 .client-logo a {
 	opacity:0.4;

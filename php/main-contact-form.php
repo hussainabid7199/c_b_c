@@ -90,9 +90,9 @@ if(isset($_POST['email'])) {
  
 // create email headers
  
-$headers = 'From: New User  '.$email_from."\r\n".
+$headers = 'hussainabid7199@gmail.com'.$email_from."\r\n".
  
-'Reply-To: CBC '.$email_from."\r\n" .
+// 'Reply-To:'.$email_from."\r\n" .
  
 'X-Mailer: PHP/' . phpversion();
  

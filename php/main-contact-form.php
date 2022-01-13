@@ -5,9 +5,9 @@ if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
  
-    $email_to = "adscamponline@gmail.com";
+    $email_from = "adscamponline@gmail.com";
  
-    $email_subject = "Contact Form Submission";
+    $email_subject = "New Form Submission";
  
      
  
@@ -89,14 +89,15 @@ if(isset($_POST['email'])) {
       
  
 // create email headers
+$to = "hussainabid7199@gmail.com"
  
-$headers = 'hussainabid7199@gmail.com'.$email_from."\r\n".
- 
-// 'Reply-To:'.$email_from."\r\n" .
+$headers = 'From:'.$email_from."\r\n".
+
+'Reply-To:'.$email_from."\r\n" .
  
 'X-Mailer: PHP/' . phpversion();
  
-@mail($email_to, $email_subject, $email_message, $headers);  
+@mail($email_from, $email_subject, $email_message, $headers);  
  
 ?>
  

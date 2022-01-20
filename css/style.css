@@ -102,6 +102,15 @@ form {
 	font-size: small;
   }
 
+  .overme {
+		width: 240px;
+        overflow:hidden; 
+        white-space:nowrap; 
+        text-overflow: ellipsis;
+        color: red;
+	
+}
+
 /* My Customisation */
 
 * {
